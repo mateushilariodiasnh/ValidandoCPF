@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+fieldset, #resultado{
+    margin: auto;
+    max-width: 50%;
+}
+
+h1 {
+    color: green;
+}
+
+.dentroDoFieldset {
+    display: inline-block;
+    justify-content: center;
+}
+
+#validar {
+    font-size: larger;
+    background-color: chartreuse;
+    width: 120px;
+    height: 32px;
+    border-radius: 8px;
+    border-color: darkgreen;
+    transition: color 0.2s;
+    transition: background-color 0.2s;
+    transition: border-color 0.2s;
+}
+
+#validar:hover {
+    color: white;
+    background-color: black;
+    border-color: green;
+}
+
+#resultado {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    border-color: solid 2px darkolivegreen;
+    text-align: center;
+}
