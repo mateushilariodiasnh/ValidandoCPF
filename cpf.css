@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
 }
 
-fieldset, #resultado{
+fieldset {
     margin: auto;
     max-width: 50%;
 }
